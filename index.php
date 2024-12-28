@@ -101,6 +101,40 @@
         // echo "</pre>";
 
         //function => User defined functions Pre defined functions
+        // function greet(){
+            // echo " Welcome to Akash Trading ";
+        // }
+        // greet();
+
+        //Array functions
+        $cars = array(
+            0 => "Car1",
+            1 => "Car2",
+            2 => "Car3",
+            3 => "Car4",
+            4 => "Car5",
+            5 => "Car6",
+            6 => "Car7",
+        );
+        // $x=5;
+        // if(is_array($cars)){
+            // echo "cars is an array";
+        // }else{
+            // echo "cars is not an array";
+        // }
+        // echo array_search('Car2',$cars);
+        
+        //print_r(array_slice($cars,2));
+        echo "<pre>";
+        print_r($cars);
+        echo "</pre>";
+        $popped =array_pop($cars);
+        echo($popped);
+        echo "</pre>"
+        // echo "<pre>";
+        // $chuncked = array_chunk($cars,2);
+        // print_r($chuncked);
+        // echo "</pre>";
         
 
 ?>
