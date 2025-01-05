@@ -15,4 +15,7 @@ echo "Connected successfully";
 
 // Close connection
 mysqli_close($conn);
+
+
+//AI generated code is successfully running
 ?>
